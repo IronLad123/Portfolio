@@ -14,9 +14,9 @@ export default function Contact() {
   const commands: Record<string, string> = {
     help: "Commands: about, top, projects, skills, certs, email, github, linkedin, resume, clear",
     about: "Data Science student focused on ML systems, CV, and analytics.",
-    top: "Top: Stock Analyzer, Heart Disease App, Waste CNN, AQI Predictor, Crypto-Med",
+    top: "Top: Neural Compression Ops Console, Stock Analyzer, Heart Disease App, Waste CNN, AQI Predictor",
     projects:
-      "Projects: Stock Analyzer, Heart Disease App, Waste CNN, AQI Predictor, Crypto-Med, AetherInk, Fitness Logger, Nova Shell, Snake",
+      "Projects: Neural Compression Ops Console, Stock Analyzer, Heart Disease App, Waste CNN, AQI Predictor, Crypto-Med, AetherInk, Fitness Logger, Nova Shell, Snake",
     skills: "Skills: Python, Java, C++, SQL, R, ML, CV, NLP, Tableau, JMP, WEKA",
     certs: "Certs: Vegathon, Vega Workshop, Kaggle ML, AI Impact Summit, CODEZILLA, HACKSTAR",
     email: "Email: srivastavaom078@gmail.com",

@@ -5,6 +5,18 @@ import usePulse from "../hooks/usePulse"
 
 const projects = [
   {
+    name: "Neural Compression Ops Console",
+    performance: "Mars Rover Downlink Console",
+    tech: "Python | PyTorch | FastAPI | React | Vite",
+    summary: "Scientific console for neural image compression with telemetry and QA analytics.",
+    problem: "Needed a mission-grade interface to evaluate compression quality for rover imagery.",
+    role: "Designed the pipeline UI, metrics, and anomaly analytics.",
+    result: "Operational console with Pareto analysis, anomaly detection, and timeline views.",
+    repo: "https://github.com/IronLad123/neural-compression",
+    demo: "",
+    highlight: true,
+  },
+  {
     name: "Stock Analyzer",
     performance: "Market Analysis Toolkit",
     tech: "Python | Data Analysis",

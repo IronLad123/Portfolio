@@ -110,7 +110,7 @@ export default function Home() {
 
           <div className="grid grid-cols-2 gap-4 mt-4">
             <MetricCard label="CGPA" value="9.00" />
-            <MetricCard label="Projects" value="9" />
+            <MetricCard label="Projects" value="10" />
             <MetricCard label="Focus Areas" value="ML / CV / Systems" />
             <MetricCard label="Research" value="1" />
           </div>
