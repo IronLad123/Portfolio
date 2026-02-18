@@ -12,7 +12,7 @@ const projects = [
     problem: "Needed a mission-grade interface to evaluate compression quality for rover imagery.",
     role: "Designed the pipeline UI, metrics, and anomaly analytics.",
     result: "Operational console with Pareto analysis, anomaly detection, and timeline views.",
-    repo: "https://github.com/IronLad123/neural-compression",
+    repo: "https://github.com/IronLad123/neural-compression.git",
     demo: "",
     highlight: true,
   },
