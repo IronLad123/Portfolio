@@ -25,7 +25,7 @@ const projects = [
     role: "Built data ingestion and indicator logic.",
     result: "Local workflow for quick market insights.",
     repo: "https://github.com/IronLad123/Stock_Analyzer",
-    demo: "",
+    demo: "https://stock-analyzer-5a7pacves-om-srivastavas-projects-ba142295.vercel.app",
     highlight: true,
   },
   {
@@ -191,6 +191,16 @@ export default function Projects() {
                   className="link-accent transition"
                 >
                   Repo →
+                </a>
+              )}
+              {project.demo && (
+                <a
+                  href={project.demo}
+                  target="_blank"
+                  rel="noreferrer"
+                  className="link-accent transition"
+                >
+                  Live →
                 </a>
               )}
             </div>
