@@ -7,9 +7,14 @@ import ThemeToggle from "./ThemeToggle"
 export default function Navbar() {
   return (
     <nav className="nav-shell flex flex-wrap items-center justify-between gap-4 px-8 py-4 sticky top-0 z-50">
-      <h1 className="text-[#00ff88] font-bold text-xl tracking-widest">
-        OM.TRADING
-      </h1>
+      <NavLink to="/" className="flex items-center gap-2 group">
+        <span className="text-[#00ff88] font-bold text-xl tracking-wider group-hover:drop-shadow-[0_0_8px_rgba(0,255,136,0.6)] transition">
+          OM SRIVASTAVA
+        </span>
+        <span className="text-[10px] font-mono uppercase tracking-widest px-2 py-0.5 rounded bg-[#00ff88]/10 text-[#00ff88] border border-[#00ff88]/30">
+          AI & DS
+        </span>
+      </NavLink>
 
       <div className="flex flex-wrap items-center gap-4 text-sm uppercase tracking-wide">
         {[
